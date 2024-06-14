@@ -1,12 +1,11 @@
-import hashlib
-from math import pow
-
-
 #-------------------------------
 # This function takes in IP address 
 # and PORT combined as an input and 
 # returns the hashed key for the the Chord Topology
 #-------------------------------
+
+import hashlib
+from math import pow
 
 
 # Value of m for Chord Ring Topology

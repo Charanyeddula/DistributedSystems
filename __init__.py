@@ -1,16 +1,15 @@
-from http.client import NETWORK_AUTHENTICATION_REQUIRED
-import socket
-from collections import OrderedDict
-from ._generatedKey import generatedKey
-from math import pow
-
-
 #-----------------------------------------
 # It is an initialization file for any Peer 
 # that wants to enter the Network with 
 # all the methods and attributes that a peer node can have.
 #-----------------------------------------
 
+
+from http.client import NETWORK_AUTHENTICATION_REQUIRED
+import socket
+from collections import OrderedDict
+from ._generatedKey import generatedKey
+from math import pow
 
 
 # Buffer size used for transferring the data

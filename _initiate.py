@@ -1,12 +1,12 @@
+#---------------------------
+# Creating the Node by initializng two threads  
+# one for thread acting as a server receiving connections 
+# and another always pinging and checking for a successor
+#---------------------------
+
 from tabnanny import check
 import threading
 from ._generatedKey import generatedKey
-
-#---------------------------
-# Creating the Node by initialing two threads one 
-# for thread acting as a server receiving connections 
-# and another always pinging and checking for successor
-#---------------------------
 
 
 def initiate(self):

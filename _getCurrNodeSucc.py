@@ -1,13 +1,14 @@
-import socket
-import pickle
-from ._generatedKey import generatedKey
-
 #---------------------------------
 # The function takes in the IP, PORT of "peer in the network to connect" 
 # along with its own ID and iteratively checks for the 
 # correct location to insert the incoming node or the current 
 # nodes successor and returns its address
 #---------------------------------
+
+import socket
+import pickle
+from ._generatedKey import generatedKey
+
 
 # Buffer size used for transferring the data
 fileBuff = 6144

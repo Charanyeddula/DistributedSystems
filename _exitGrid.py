@@ -1,12 +1,12 @@
+#----------------------------
+# The following operations happen if
+# user requests to leave the network
+#----------------------------
+
 import socket, random
 import pickle
 from ._generatedKey import generatedKey
 
-
-#----------------------------
-# The following operations happen if
-# user requests for leaving the network
-#----------------------------
 
 
 # Buffer size used for transferring the data

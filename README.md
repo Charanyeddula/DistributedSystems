@@ -79,7 +79,7 @@ Instructions for execution and Folder Structure
 
 
 
---> For the Execution of this we are Using Multiple AWS EC2 instances
+--> For the Execution of this code I used Multiple AWS EC2 instances
 
---> You can create multiple nodes via local host aswell but while execution
+--> You can create multiple nodes via local host as well but while execution
     Put the Code in various directories and execute
