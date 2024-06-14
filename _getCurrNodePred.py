@@ -1,8 +1,3 @@
-import pickle
-import time
-from ._generatedKey import generatedKey
-
-
 #---------------------------------
 # It is a helper function for nodes to join the network
 # Updating the predecessor to the newly joined node and
@@ -10,6 +5,10 @@ from ._generatedKey import generatedKey
 # This also triggers the updation of the finger table of all the peers
 #---------------------------------
 
+
+import pickle
+import time
+from ._generatedKey import generatedKey
 
 
 # Join Node Helper Function
