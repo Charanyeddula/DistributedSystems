@@ -1,13 +1,13 @@
+#-------------------------
+# The Function here runs on a different thread and checks continuously, 
+# if the successor for that node is present. 
+# If The successor is not present then the stabilization of nodes happens
+#-------------------------
+
 import socket
 import pickle
 import time
 from ._generatedKey import generatedKey
-
-#-------------------------
-# The Function here runs on a different thead and checks contineously 
-# if the successor for that node is present or not. 
-# If The successor is not present then the stabilization of nodes happens
-#-------------------------
 
 
 # Buffer size used for transferring the data
