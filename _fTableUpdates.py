@@ -1,17 +1,14 @@
-from platform import node
-import socket
-import pickle
-from ._generatedKey import generatedKey
-from math import pow
-
-
 #------------------------------------
 # This file holds two functions
 # One to update the finger table of the current Node
 # Other to Update the finger Tables of other Nodes
 #------------------------------------
 
-
+from platform import node
+import socket
+import pickle
+from ._generatedKey import generatedKey
+from math import pow
 
 
 # Buffer size used for transferring the data
