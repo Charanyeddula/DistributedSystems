@@ -1,10 +1,10 @@
-from ._generatedKey import generatedKey
-
 #-----------------------------
-# This is used for downlaoding the file from 
+# This is used for downloading the file from 
 # current Node or uploading the file to 
 # current node and its successor for redundancy
 #-----------------------------
+
+from ._generatedKey import generatedKey
 
 
 
