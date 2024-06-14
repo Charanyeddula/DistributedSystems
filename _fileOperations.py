@@ -1,16 +1,14 @@
+#----------------------------------
+# The file contains different file operation functions
+# For uploading and downloading files and also two helper 
+# functions to transfer file information as bits
+#----------------------------------
+
 import socket
 import pickle
 import time
 import os
 from ._generatedKey import generatedKey
-
-
-
-#----------------------------------
-# The file containes different file operation functions
-# For uploading adn downloading files and also two helper 
-# functions to transfer file information as bits
-#----------------------------------
 
 
 
