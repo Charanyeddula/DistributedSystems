@@ -1,11 +1,11 @@
-import pickle
-from ._generatedKey import generatedKey
-
-
 #------------------------------
 # The function looks up for the 
 # apt position of the nId successor to insert before
 #------------------------------
+
+
+import pickle
+from ._generatedKey import generatedKey
 
 
 
