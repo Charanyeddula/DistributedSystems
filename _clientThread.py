@@ -1,10 +1,10 @@
-from ._generatedKey import generatedKey
-
 #---------------------------------
 # This Function takes in option input from the peer 
 # for what kind of operation they want to perform and 
 # based on that other methods are scheduled
 #---------------------------------
+
+from ._generatedKey import generatedKey
 
 
 # Keeping tab of operations requested as a client
