@@ -1,12 +1,12 @@
-import socket
-import pickle
-from ._generatedKey import generatedKey
-
 #------------------------------------
 # The function initiates the join request and 
 # adds the new Peer to its appropriate Successor and
-# Predecessor and into appropriate position in the network
+# Predecessor and into the appropriate position in the network
 #------------------------------------
+
+import socket
+import pickle
+from ._generatedKey import generatedKey
 
 
 # Buffer size used for transferring the data
